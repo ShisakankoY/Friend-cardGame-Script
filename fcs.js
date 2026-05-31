@@ -47,7 +47,7 @@ function fcs(code) {
                     status: com7,
                     hc: Number(com8)
                 }
-            } else if (com2 === "change") {
+            } else if (com2 === "_change") {
                 if (com3 === "life") {
                     fcs_obj[`player${com4}`].life = Number(com5);
                 } else if (com3 === "totalCost") {
