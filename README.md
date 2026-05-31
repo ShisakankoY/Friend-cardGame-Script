@@ -21,7 +21,9 @@ MITライセンスを使用しています。ご注意ください。
 
 `fcs("Card _change hp CardName value");`
 
-### プレーヤー
+cost = カードのコスト, hp = カードの体力, kinds = カードの種類, attack = カードの攻撃力, elem = カードの属性, tag =　カードのタグ
+
+### プレイヤー
 
 ***設定***
 
@@ -31,6 +33,40 @@ MITライセンスを使用しています。ご注意ください。
 
 ***変更***
 
-<life>
+`fcs("Player _change life PlayerName value");`
 
-`fcs("Player _change
+`fcs("Player _change totalCost PlayerName value");`
+
+`fcs("Player _change point PlayerName value");`
+
+`fcs("Player _change status PlayerName value");`
+
+`fcs("Player _change hc PlayerName value");`
+
+life = プレイヤーのライフ, totalCost =　プレイヤーの持っているコスト, point = プレイヤーの得点, status = プレイヤーの状態, hc = プレーヤーの手札
+
+### ゲーム全体
+
+***設定***
+
+`fcs("Game _config initialLife initialHc deck");`;
+
+initialLife = 初期ライフ, initialHc = 初期手札, deck = 山札
+
+### 削除
+
+`fcs("Delete _card");`
+
+`fcs("Delete _player");`
+
+`fcs("Delete _game");`
+
+### オブジェクト
+
+`window.fcs_obj`
+
+＊このスクリプトはオブジェクトを返します。
+
+## 使い方
+
+htmlファイルに以下を記述してください。
