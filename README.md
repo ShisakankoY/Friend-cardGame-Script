@@ -28,6 +28,14 @@ MITライセンスを使用しています。ご注意ください。
 
 `fcs("Card _change hp CardName value");`
 
+`fcs("Card _change kinds CardName value");`
+
+`fcs("Card _change attack CardName value");`
+
+`fcs("Card _change elem CardName value");`
+
+`fcs("Card _change tag CardName value");`
+
 cost = カードのコスト, hp = カードの体力, kinds = カードの種類, attack = カードの攻撃力, elem = カードの属性, tag =　カードのタグ
 
 ### プレイヤー
@@ -110,6 +118,14 @@ It uses the MIT license. Please note this.
 `fcs("Card _change cost CardName value");`
 
 `fcs("Card _change hp CardName value");`
+
+`fcs("Card _change kinds CardName value");`
+
+`fcs("Card _change attack CardName value");`
+
+`fcs("Card _change elem CardName value");`
+
+`fcs("Card _change tag CardName value");`
 
 cost = Card cost, hp = Card's health, kinds = Card type, attack = Card's attack power, elem = Card attribute, tag = Card's tag
 
