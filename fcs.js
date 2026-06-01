@@ -37,6 +37,14 @@ function fcs(code) {
                     fcs_obj[`card${com4}`].hp = Number(com5);
                 } else if ("cost") {
                     fcs_obj[`card${com4}`].cost = Number(com5);
+                } else if ("kinds") {
+                    fcs_obj[`card${com4}`].kinds = com5;
+                } else if ("attack") {
+                    fcs_obj[`card${com4}`].attack = Number(com5);
+                } else if ("elem") {
+                    fcs_obj[`card${com4}`].elem = com5;
+                } else if ("tag") {
+                    fcs_obj[`card${com4}`].tag = com5;
                 }
             }
         }
