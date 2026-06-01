@@ -11,7 +11,10 @@ MITライセンスを使用しています。ご注意ください。
 ## 文法
 
 ＊複数行記述に対応しています。
+
 ＊(一部)必要のない項目はnoneなど、好きな値を入れてください。
+
+＊値の意味は、開発に応じて意味を変えていただいても構いません。(コストの捉え方など！)
 
 ### カード
 
@@ -19,7 +22,9 @@ MITライセンスを使用しています。ご注意ください。
 
 `fcs("Card _create CardName cost hp kinds attack elem tag");`
 
-***hp変更***
+***変更***
+
+`fcs("Card _change cost CardName value");`
 
 `fcs("Card _change hp CardName value");`
 
@@ -91,6 +96,8 @@ It uses the MIT license. Please note this.
 
 * (Some) unnecessary items can be entered with values ​​such as `none`.
 
+* You are free to change the meaning of the values ​​as needed during development (for example, how you interpret costs!).
+
 
 ### Card
 
@@ -98,7 +105,9 @@ It uses the MIT license. Please note this.
 
 `fcs("Card _create CardName cost hp kinds attack elem tag");`
 
-***Change HP***
+***Change***
+
+`fcs("Card _change cost CardName value");`
 
 `fcs("Card _change hp CardName value");`
 
