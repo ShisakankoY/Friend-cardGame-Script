@@ -35,6 +35,8 @@ function fcs(code) {
             } else if (com2 === "_change") {
                 if (com3 === "hp") {
                     fcs_obj[`card${com4}`].hp = Number(com5);
+                } else if ("cost") {
+                    fcs_obj[`card${com4}`].cost = Number(com5);
                 }
             }
         }
